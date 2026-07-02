@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CALSync — stop your Macs from double-booking each other</title>
+  <meta name="description" content="CALSync is a free, private macOS menu bar app that syncs busy time between your own Macs. No account, no Google, no third-party cloud — self-hosted free/busy sync.">
+  <meta property="og:title" content="CALSync — stop your Macs from double-booking each other">
+  <meta property="og:description" content="Free, private menu bar app that syncs busy time between your own Macs. No account, no Google — only hashed busy blocks ever leave your machine.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://itsklimov.github.io/CALSync/">
+  <style>
+    :root { color-scheme: light dark; }
+    body {
+      font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      max-width: 40rem; margin: 0 auto; padding: 4rem 1.5rem 3rem;
+    }
+    h1 { font-size: 2.2rem; margin-bottom: 0.3rem; }
+    .tagline { font-size: 1.25rem; font-weight: 600; margin-top: 0; }
+    .download {
+      display: inline-block; margin: 1.5rem 0; padding: 0.7rem 1.6rem;
+      background: #0969da; color: #fff; border-radius: 8px;
+      text-decoration: none; font-weight: 600;
+    }
+    .links a { margin-right: 1.2rem; }
+    footer { margin-top: 3rem; font-size: 0.85rem; opacity: 0.7; }
+  </style>
+</head>
+<body>
+  <h1>CALSync</h1>
+  <p class="tagline">Stop your Macs from double-booking each other.</p>
+  <p>
+    CALSync is a free, private menu bar app that syncs busy time between your
+    own Macs — work and personal — so every calendar knows when you're actually
+    free. No account, no Google, no third-party cloud: only anonymous hashed
+    busy blocks ever leave your machine, synced through a tiny server you host
+    yourself.
+  </p>
+  <p>
+    What leaves your Mac: hashed identifiers, start/end timestamps, and a short
+    label you choose. What never leaves your Mac: event titles, attendees,
+    locations, notes, calendar names. The relay can't reconstruct your schedule.
+  </p>
+  <a class="download" href="https://github.com/itsklimov/CALSync/releases/latest">Download for macOS</a>
+  <p class="links">
+    <a href="https://github.com/itsklimov/CALSync">GitHub</a>
+    <a href="https://github.com/itsklimov/CALSync/blob/main/protocol.md">Protocol</a>
+    <a href="appcast.xml">Update feed</a>
+  </p>
+  <footer>Requires macOS 14 (Sonoma) or newer. Auto-updates via Sparkle.</footer>
+</body>
+</html>
