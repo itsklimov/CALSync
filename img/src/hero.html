@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { width: 1600px; height: 600px; overflow: hidden;
+    font-family: -apple-system, "SF Pro Display", BlinkMacSystemFont, sans-serif;
+    background: radial-gradient(1400px 900px at 50% -10%, #17233d 0%, #0c1424 60%, #080d18 100%);
+    color: #fff; }
+  .wrap { height: 100%; padding: 64px 90px; display: flex; align-items: center;
+    justify-content: space-between; position: relative; }
+  .mac { width: 430px; }
+  .mac .screen { border-radius: 18px; background: #101a2e;
+    border: 1px solid rgba(255,255,255,0.12);
+    box-shadow: 0 24px 70px rgba(0,0,0,0.5); padding: 22px; }
+  .mac .label { text-align: center; margin-top: 18px; font-size: 24px; font-weight: 600;
+    color: rgba(255,255,255,0.75); }
+  .mac .cap { text-align: center; margin-top: 6px; font-size: 18px;
+    color: rgba(255,255,255,0.4); }
+  .day { font-size: 15px; font-weight: 600; color: rgba(255,255,255,0.45);
+    margin-bottom: 12px; letter-spacing: 0.06em; }
+  .slot { border-radius: 9px; margin-bottom: 10px; padding: 10px 14px;
+    font-size: 16px; font-weight: 600; display: flex; justify-content: space-between; }
+  .slot .t { color: rgba(255,255,255,0.5); font-weight: 500; }
+  .real-a { background: rgba(111,179,255,0.18); border: 1px solid rgba(111,179,255,0.4); color: #a8cfff; }
+  .real-b { background: rgba(126,231,168,0.15); border: 1px solid rgba(126,231,168,0.38); color: #a5eec4; }
+  .mirror { opacity: 0.75; border-style: dashed; }
+  .relay { text-align: center; width: 360px; position: relative; }
+  .relay .box { display: inline-block; padding: 20px 30px; border-radius: 16px;
+    background: rgba(255,255,255,0.055); border: 1px solid rgba(255,255,255,0.14); }
+  .relay .box .title { font-size: 21px; font-weight: 700; }
+  .relay .box .sub { font-size: 16px; color: rgba(255,255,255,0.5); margin-top: 5px; }
+  .hashes { margin-top: 14px; font-family: "SF Mono", ui-monospace, monospace;
+    font-size: 14px; color: rgba(255,255,255,0.34); line-height: 1.8; }
+  .flow { position: absolute; top: 260px; font-size: 34px; color: #6fb3ff; opacity: 0.85; }
+  .flow.l { left: 545px; } .flow.r { right: 545px; }
+  .note { margin-top: 16px; font-size: 17px; color: rgba(255,255,255,0.55); line-height: 1.5; }
+  .note b { color: rgba(255,255,255,0.8); }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="mac">
+      <div class="screen">
+        <div class="day">WORK MAC · EXCHANGE</div>
+        <div class="slot real-a"><span>Standup</span><span class="t">9:00</span></div>
+        <div class="slot real-a"><span>Design review</span><span class="t">13:00</span></div>
+        <div class="slot real-b mirror"><span>PR</span><span class="t">10:30</span></div>
+        <div class="slot real-b mirror"><span>PR</span><span class="t">15:00</span></div>
+      </div>
+      <div class="label">Work Mac</div>
+      <div class="cap">sends busy as “WX”</div>
+    </div>
+
+    <div class="flow l">⇄</div>
+    <div class="flow r">⇄</div>
+    <div class="relay">
+      <div class="box">
+        <div class="title">Your relay</div>
+        <div class="sub">tiny self-hosted server</div>
+        <div class="hashes">a41f…9c · 09:00–09:30 · WX<br>77e0…2b · 10:30–11:00 · PR</div>
+      </div>
+      <div class="note">Only <b>hashed busy blocks</b> travel:<br>
+        start, end, short label.<br>
+        Never titles, people, or places.</div>
+    </div>
+
+    <div class="mac">
+      <div class="screen">
+        <div class="day">PERSONAL MAC · ICLOUD</div>
+        <div class="slot real-b"><span>Dentist</span><span class="t">10:30</span></div>
+        <div class="slot real-b"><span>School run</span><span class="t">15:00</span></div>
+        <div class="slot real-a mirror"><span>WX</span><span class="t">9:00</span></div>
+        <div class="slot real-a mirror"><span>WX</span><span class="t">13:00</span></div>
+      </div>
+      <div class="label">Personal Mac</div>
+      <div class="cap">sends busy as “PR”</div>
+    </div>
+  </div>
+</body>
+</html>

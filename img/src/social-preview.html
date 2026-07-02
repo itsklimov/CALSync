@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { width: 1280px; height: 640px; overflow: hidden;
+    font-family: -apple-system, "SF Pro Display", BlinkMacSystemFont, sans-serif;
+    background: radial-gradient(1200px 800px at 20% 0%, #1b2a4a 0%, #0d1526 55%, #080d18 100%);
+    color: #fff; position: relative; }
+  .grid {
+    position: absolute; inset: 0;
+    background-image: linear-gradient(rgba(255,255,255,0.035) 1px, transparent 1px),
+                      linear-gradient(90deg, rgba(255,255,255,0.035) 1px, transparent 1px);
+    background-size: 64px 64px;
+    mask-image: radial-gradient(900px 600px at 30% 30%, black 0%, transparent 75%);
+    -webkit-mask-image: radial-gradient(900px 600px at 30% 30%, black 0%, transparent 75%);
+  }
+  .wrap { position: relative; height: 100%; padding: 72px 80px; display: flex; flex-direction: column; }
+  .top { display: flex; align-items: center; gap: 28px; }
+  .icon { width: 120px; height: 120px; border-radius: 27px;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.55), 0 0 0 1px rgba(255,255,255,0.08); }
+  .name { font-size: 64px; font-weight: 700; letter-spacing: -0.02em; }
+  .tagline { margin-top: 44px; font-size: 54px; font-weight: 700; line-height: 1.15;
+    letter-spacing: -0.02em; max-width: 900px; }
+  .tagline em { font-style: normal; color: #6fb3ff; }
+  .sub { margin-top: 26px; font-size: 26px; color: rgba(255,255,255,0.62); font-weight: 400; }
+  .chips { margin-top: auto; display: flex; gap: 14px; }
+  .chip { font-size: 21px; font-weight: 600; padding: 12px 22px; border-radius: 999px;
+    background: rgba(255,255,255,0.07); border: 1px solid rgba(255,255,255,0.13);
+    color: rgba(255,255,255,0.85); }
+  /* decorative busy blocks, right side */
+  .cal { position: absolute; right: 80px; top: 118px; width: 300px; }
+  .cal .col { position: absolute; top: 0; width: 138px; }
+  .cal .col.b { right: 0; } .cal .col.a { left: 0; }
+  .slot { border-radius: 10px; margin-bottom: 12px; padding: 10px 14px;
+    font-size: 17px; font-weight: 600; }
+  .a .slot { background: rgba(111,179,255,0.16); border: 1px solid rgba(111,179,255,0.35); color: #a8cfff; }
+  .b .slot { background: rgba(126,231,168,0.13); border: 1px solid rgba(126,231,168,0.32); color: #a5eec4; }
+  .slot.ghost { opacity: 0.45; border-style: dashed; }
+  .link { position: absolute; left: 50%; transform: translateX(-50%);
+    color: rgba(255,255,255,0.35); font-size: 22px; }
+</style>
+</head>
+<body>
+  <div class="grid"></div>
+  <div class="wrap">
+    <div class="top">
+      <img class="icon" src="calsync-icon-512.png">
+      <div class="name">CALSync</div>
+    </div>
+    <div class="tagline">Stop your Macs from<br><em>double-booking</em> each other.</div>
+    <div class="sub">Private busy-time sync between your own Macs — no account, no Google.</div>
+    <div class="chips">
+      <div class="chip">macOS 14+</div>
+      <div class="chip">Menu bar</div>
+      <div class="chip">Self-hosted</div>
+      <div class="chip">Only hashed busy blocks</div>
+    </div>
+    <div class="cal">
+      <div class="col a">
+        <div class="slot">9:00 · WX</div>
+        <div class="slot ghost">10:30 · PR</div>
+        <div class="slot">13:00 · WX</div>
+        <div class="slot ghost">15:00 · PR</div>
+      </div>
+      <div class="col b" style="top: 26px;">
+        <div class="slot ghost">9:00 · WX</div>
+        <div class="slot">10:30 · PR</div>
+        <div class="slot ghost">13:00 · WX</div>
+        <div class="slot">15:00 · PR</div>
+      </div>
+      <div class="link" style="top: 105px;">⇄</div>
+      <div class="link" style="top: 205px;">⇄</div>
+    </div>
+  </div>
+</body>
+</html>
