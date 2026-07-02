@@ -56,7 +56,7 @@ your schedule — it only passes opaque busy blocks between your own machines.
 
 ## Requirements
 
-- macOS 14 (Sonoma) or newer
+- macOS 14 (Sonoma) or newer, Apple silicon or Intel (universal binary)
 - A small always-on server for the relay — a free-tier Railway service or any
   box that can run Bun (single binary, SQLite storage)
 
