@@ -3,6 +3,18 @@
     <channel>
         <title>CALSync</title>
         <item>
+            <title>0.2.1</title>
+            <pubDate>Thu, 02 Jul 2026 11:21:46 -0700</pubDate>
+            <link>https://github.com/itsklimov/calsync-releases</link>
+            <sparkle:version>3</sparkle:version>
+            <sparkle:shortVersionString>0.2.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/itsklimov/calsync-releases/releases/download/downloads/CALSync-0.2.1.zip" length="3780170" type="application/octet-stream" sparkle:edSignature="NU94mhyU80YBmvdRnBSFfav+ZVK57f7tD2YxZNvaT7RYCx1KexnoYZt6FsfWf9n/ufCfeMFul6llIwJLUeMnAg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/itsklimov/calsync-releases/releases/download/downloads/CALSync3-2.delta" sparkle:deltaFrom="2" length="13790" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="1b6WIqYosjC+xrNAwzXy+TOc/Mfqndlvadw0Xww9B1liQdXnxxGKU6qfe86scZidfqY2ys5BJTNe1AJS8E9DBQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.2.0</title>
             <pubDate>Thu, 02 Jul 2026 10:25:55 -0700</pubDate>
             <link>https://github.com/itsklimov/calsync-releases</link>
