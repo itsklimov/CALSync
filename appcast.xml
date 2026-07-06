@@ -3,6 +3,22 @@
     <channel>
         <title>CALSync</title>
         <item>
+            <title>0.2.6</title>
+            <pubDate>Mon, 06 Jul 2026 10:36:50 -0700</pubDate>
+            <link>https://github.com/itsklimov/CALSync</link>
+            <sparkle:version>8</sparkle:version>
+            <sparkle:shortVersionString>0.2.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/itsklimov/CALSync/releases/download/downloads/CALSync-0.2.6.zip" length="3770655" type="application/octet-stream" sparkle:edSignature="yrrpa08oW2WtUeVDAwjBKTX1Baw//f2atU1K6A/uDuw6ynbQij+zmBaLG3/QHzGkFvLUDy77mYD2u/KsILA4DQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/itsklimov/CALSync/releases/download/downloads/CALSync8-7.delta" sparkle:deltaFrom="7" length="103278" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="f/8+FGkb5n+SL8rHypnU7tIqSR+dj3S1D67wkUmfAP4b1I7TJMP3WvqY3yc1s52a5sxwPnB4xRj8D5nvoiG4CA=="/>
+                <enclosure url="https://github.com/itsklimov/CALSync/releases/download/downloads/CALSync8-6.delta" sparkle:deltaFrom="6" length="138910" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="lV/bO/4gknjgl/EkZkWZFHs9Z2rrWZhVKseeoMXs66i/5SUkQRDd1xzJjKwqYXSoEqxtke5Ngz26aA2p/V7mDg=="/>
+                <enclosure url="https://github.com/itsklimov/CALSync/releases/download/downloads/CALSync8-5.delta" sparkle:deltaFrom="5" length="139102" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="v4E0877n7XT7rNueAznnajxaU6ojgbOdowADPn0uQIdI7v+WshhbAG8Lpw6ZP6JSZMmwCgSkE2Eef4m3Q7AVDA=="/>
+                <enclosure url="https://github.com/itsklimov/CALSync/releases/download/downloads/CALSync8-4.delta" sparkle:deltaFrom="4" length="148170" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="+cs6V9lE6176+Cp5cRw6PEwq3Ckv0quhVHe36L2Cx/5fMsw8IYOtqAcZjdBcn9ubzcLWGYVqm+QuaLaon9waDA=="/>
+                <enclosure url="https://github.com/itsklimov/CALSync/releases/download/downloads/CALSync8-3.delta" sparkle:deltaFrom="3" length="148210" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="BzqI6PINfi8aYibS1hbsceA2LIkSvM2m4234ba5tE8E9SN51/fA7L1TG0sOY1BeYE5hvoG7rDbJ7Lemqo0nOAA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.2.5</title>
             <pubDate>Mon, 06 Jul 2026 10:16:11 -0700</pubDate>
             <link>https://github.com/itsklimov/CALSync</link>
@@ -31,20 +47,6 @@
                 <enclosure url="https://github.com/itsklimov/CALSync/releases/download/downloads/CALSync6-4.delta" sparkle:deltaFrom="4" length="99186" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="RR0yZNX4+1zCfidWr1h5cjfZA+u9e3zaD2TRu/sQmTmmmuA939NIMeHQvwy/Q5OEAcKAF9MhPR8Cf0cnUT/GCA=="/>
                 <enclosure url="https://github.com/itsklimov/CALSync/releases/download/downloads/CALSync6-3.delta" sparkle:deltaFrom="3" length="97442" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="jg6noQpee+5YqtDcnoNxjCRPCApCqFfFOXe2EJPM8w+1iMywV66iaFgfYnhuzVSb9sI/rPiHhIU4Ommjr+9ADA=="/>
                 <enclosure url="https://github.com/itsklimov/CALSync/releases/download/downloads/CALSync6-2.delta" sparkle:deltaFrom="2" length="98322" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="MwGXrTIdUNzcoN1BU1NRNW0OP8g2R2FsP/SKFdPy6GE1LanyP9LDS9imp1vRzXDcouKqHB/G+PBzBkQJ9BfzAw=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>0.2.3</title>
-            <pubDate>Thu, 02 Jul 2026 12:09:52 -0700</pubDate>
-            <link>https://github.com/itsklimov/CALSync</link>
-            <sparkle:version>5</sparkle:version>
-            <sparkle:shortVersionString>0.2.3</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/itsklimov/CALSync/releases/download/downloads/CALSync-0.2.3.zip" length="3781366" type="application/octet-stream" sparkle:edSignature="Qnu+bXvfct6UnceRxF4aMXYYsn+aAooIWzw9xRGo9Ofzkqs1BVVIQAiMgoR+7e9f3fK/AJ8rvIpRR0Ht60CtAg=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/itsklimov/CALSync/releases/download/downloads/CALSync5-4.delta" sparkle:deltaFrom="4" length="89622" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="SPW5ki3Y6j4QwgA/OfWZWEvOOlToXt9pnEl1BaqnBsq9s4pwPoZdA79j1gWjX/amN7q7UW0VWOoHek7cpU/XCQ=="/>
-                <enclosure url="https://github.com/itsklimov/CALSync/releases/download/downloads/CALSync5-3.delta" sparkle:deltaFrom="3" length="88442" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="d2ZPaTaCmIyHNs9MemzWguVpk+IN2SvYy3W1TXt21DOPY1mXllHWr9eZuaib73/8Wl7niDvwctnDblWJdl2UBQ=="/>
-                <enclosure url="https://github.com/itsklimov/CALSync/releases/download/downloads/CALSync5-2.delta" sparkle:deltaFrom="2" length="88878" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="mZmNfmwdDiQmyril/6GVYTjnFyZnj0pTU0om8arUFPsv8DK82OKdOzdSlZKT9sGaKGYe0xly8BkmqKB2nlzFDg=="/>
             </sparkle:deltas>
         </item>
     </channel>
